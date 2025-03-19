@@ -4,6 +4,7 @@
     {
         public long Id { get; set; }
         public long IdAlerta { get; set; }
-        public string Laudo { get; set; }        
+        public string Laudo { get; set; }    
+        public DateTime Horario { get; set; }
     }
 }

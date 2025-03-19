@@ -43,6 +43,7 @@
             dgvCriticos.Name = "dgvCriticos";
             dgvCriticos.Size = new Size(1203, 288);
             dgvCriticos.TabIndex = 0;
+            dgvCriticos.CellClick += dgvCriticos_CellClick;
             // 
             // dgvAlertas
             // 
@@ -51,6 +52,7 @@
             dgvAlertas.Name = "dgvAlertas";
             dgvAlertas.Size = new Size(1203, 288);
             dgvAlertas.TabIndex = 1;
+            dgvAlertas.CellClick += dgvAlertas_CellClick;
             // 
             // label1
             // 
